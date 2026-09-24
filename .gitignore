@@ -1,0 +1,5 @@
+# MATLAB temporary files
+*.asv
+*.log
+*.mlx.autosave
+.DS_Store
