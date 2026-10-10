@@ -1,0 +1,324 @@
+{
+  "original_package": "MVFP_Reproduction_Code_fresh_2026-10-10_readme_merged.zip",
+  "source_run": "cp_fresh_recompute_2026_10_10",
+  "source_code_only": true,
+  "license": "pending",
+  "files": {
+    "function/Ueff2_fc.m": {
+      "original_path": "fitted_core/function/Ueff2_fc.m",
+      "original_sha256": "551d053d088f7b3b16180ba9f807b26f86c788238fb0487a3e1940755415fd08"
+    },
+    "function/boundary_density_mass.m": {
+      "original_path": "fitted_core/function/boundary_density_mass.m",
+      "original_sha256": "58961fd2482b1ad2132e89a32edd5b61cf829d730e05e1cdc3749e852b61a37e"
+    },
+    "function/classify_left_fraction.m": {
+      "original_path": "fitted_core/function/classify_left_fraction.m",
+      "original_sha256": "a41f09462a7cf878c3dc53a980566adf9e328855c08007a6387e3038c410a60e"
+    },
+    "function/compute_mvfp_approved_revision_fig123.m": {
+      "original_path": "fitted_core/function/compute_mvfp_approved_revision_fig123.m",
+      "original_sha256": "c7feb62c81852175ce667ad12ccbb26848a7dccd0301806d292aa82b4218867a"
+    },
+    "function/compute_mvfp_feedback_control_diagnostics.m": {
+      "original_path": "fitted_core/function/compute_mvfp_feedback_control_diagnostics.m",
+      "original_sha256": "d2c2a2f1094436cd378a3b87151f21d1884a19f7c4214119ae97fe1bec395947"
+    },
+    "function/compute_mvfp_free_energy_basin_diagnostics.m": {
+      "original_path": "fitted_core/function/compute_mvfp_free_energy_basin_diagnostics.m",
+      "original_sha256": "963662ddba874a015b8d37f50f288eb9ecc0309a6e136ca969862d0b7ffbc93f"
+    },
+    "function/compute_mvfp_free_energy_trace.m": {
+      "original_path": "fitted_core/function/compute_mvfp_free_energy_trace.m",
+      "original_sha256": "38ffcb303b17f8fb73dce713e34d934c104fc83294909fff8cee89e83e63f5dd"
+    },
+    "function/compute_mvfp_mfpt_point_from_F.m": {
+      "original_path": "fitted_core/function/compute_mvfp_mfpt_point_from_F.m",
+      "original_sha256": "f920c9dd336c46ae94633df09a51b6d38c64cb62ed78d38675657581fd27f6fc"
+    },
+    "function/compute_mvfp_revision_basin.m": {
+      "original_path": "fitted_core/function/compute_mvfp_revision_basin.m",
+      "original_sha256": "066e2cf5c2821a88ef94337c9b10de4cb496c5cc3f39332f8644d54b9d46072d"
+    },
+    "function/compute_mvfp_revision_local_spectrum.m": {
+      "original_path": "fitted_core/function/compute_mvfp_revision_local_spectrum.m",
+      "original_sha256": "1860e1aa9da48f7fea4b980d4663205dd7b6ba4a69c28b30823629bd8edd16a2"
+    },
+    "function/compute_mvfp_revision_residence.m": {
+      "original_path": "fitted_core/function/compute_mvfp_revision_residence.m",
+      "original_sha256": "ebd2ba66eb079f5fd3ea4630e0c6cd2f434002ed34a953b6c032eaad10dafee0"
+    },
+    "function/compute_mvfp_revision_time_windows.m": {
+      "original_path": "fitted_core/function/compute_mvfp_revision_time_windows.m",
+      "original_sha256": "9f686123bf489e2532df7d362bfc4453ea59f26c86a4602e9ac01b57e95c41d1"
+    },
+    "function/compute_mvfp_steady_bifurcation_slice.m": {
+      "original_path": "fitted_core/function/compute_mvfp_steady_bifurcation_slice.m",
+      "original_sha256": "1f0c9d75a1040e796b2084354114113c012fbc17559d9275fc26febf2a4c6fef"
+    },
+    "function/compute_mvfp_steady_branches_for_param.m": {
+      "original_path": "fitted_core/function/compute_mvfp_steady_branches_for_param.m",
+      "original_sha256": "65b5c2552ff696ccaa23c3d0f520abf4cfda0ec88ceb4a338232d285fcf69013"
+    },
+    "function/compute_mvfp_x_bifurcation_vs_sigma.m": {
+      "original_path": "fitted_core/function/compute_mvfp_x_bifurcation_vs_sigma.m",
+      "original_sha256": "294b4e6b826484278a6cb8df9259683bdd82ea9607b4ab527f52de9176253150"
+    },
+    "function/density_threshold.m": {
+      "original_path": "fitted_core/function/density_threshold.m",
+      "original_sha256": "b571d42220162f8858c8d53f1c3bf610de41ba53c273db4e956764fd6cbf0277"
+    },
+    "function/effective_potential_extrema_from_F.m": {
+      "original_path": "fitted_core/function/effective_potential_extrema_from_F.m",
+      "original_sha256": "d6483bd2d93c7206a6ca13284097b9d31af8b9003dc16a99314cb92408719e89"
+    },
+    "function/effective_potential_from_F.m": {
+      "original_path": "fitted_core/function/effective_potential_from_F.m",
+      "original_sha256": "7660f8d5f6e90567474dd74de09b926221e90258e2aeeb2b0a2cb10600c4b12e"
+    },
+    "function/exp_if_representable.m": {
+      "original_path": "fitted_core/function/exp_if_representable.m",
+      "original_sha256": "6c58e764689c2e0525ac9c9b271863dc13a37fcc9620dd8e554548db66d2c62f"
+    },
+    "function/extrema_from_F.m": {
+      "original_path": "fitted_core/function/extrema_from_F.m",
+      "original_sha256": "e04ccc41aa8a7c1eece2003e825af8ff6f34d31bc726bf84b949bec73b12e447"
+    },
+    "function/frozenP_initial_info.m": {
+      "original_path": "fitted_core/function/frozenP_initial_info.m",
+      "original_sha256": "d971fb39c0dde93c58e59c42e1451d44a5260c01ec9c8c1609d0fcef5e5282e5"
+    },
+    "function/gaussian_pdf.m": {
+      "original_path": "fitted_core/function/gaussian_pdf.m",
+      "original_sha256": "77245d66a90a51db5e52e979b9c3e9902e15f767ab9215edae9a5f0c7b49d4b7"
+    },
+    "function/initial_density.m": {
+      "original_path": "fitted_core/function/initial_density.m",
+      "original_sha256": "6aa1470eecd32a049a377d93a1192367ca6cb72904fb25c5f03307a0163444cb"
+    },
+    "function/initial_field_guess.m": {
+      "original_path": "fitted_core/function/initial_field_guess.m",
+      "original_sha256": "11e9678e68af335c8406cfdc52570de77be7e8d38a2009362f8f14752cf85f79"
+    },
+    "function/initial_representatives.m": {
+      "original_path": "fitted_core/function/initial_representatives.m",
+      "original_sha256": "7403a717560e0b88a34a1fc0d7eeaa560c0a627734954121a45be09b01947ddb"
+    },
+    "function/integrate_density_left_of_threshold.m": {
+      "original_path": "fitted_core/function/integrate_density_left_of_threshold.m",
+      "original_sha256": "a36a63ac2e63cacf2795e88769996a405da082e5d9a89de8ef934945ea0a8a37"
+    },
+    "function/langevin_final_left_fraction.m": {
+      "original_path": "fitted_core/function/langevin_final_left_fraction.m",
+      "original_sha256": "77a2c41da520a5b10fe22b75fa277a3b038546dddf007e7afe4309172a0d5e2b"
+    },
+    "function/langevin_trace_realization.m": {
+      "original_path": "fitted_core/function/langevin_trace_realization.m",
+      "original_sha256": "029a75c9a2504e9c5eb1302bb4fdca9b7f9d86abdd9797e72ab0d24686eaabe9"
+    },
+    "function/log_add_exp.m": {
+      "original_path": "fitted_core/function/log_add_exp.m",
+      "original_sha256": "2b7932d4f57aef9f5f8c5f8a1d1dfee3f94191f420a1287a7a3d4cf7f52767b5"
+    },
+    "function/log_cumtrapz_exp.m": {
+      "original_path": "fitted_core/function/log_cumtrapz_exp.m",
+      "original_sha256": "7afdebbceaf07f64b4150da5f5c864d234623ad14e7aca1f0c8ecf588b16a833"
+    },
+    "function/log_cumtrapz_exp_reverse.m": {
+      "original_path": "fitted_core/function/log_cumtrapz_exp_reverse.m",
+      "original_sha256": "4ef0e21fa2c667a2001486c204fd797de7b7ace794b4d527534dd5cce01547ba"
+    },
+    "function/log_trapz_exp.m": {
+      "original_path": "fitted_core/function/log_trapz_exp.m",
+      "original_sha256": "01471d84879452f0298df536408a9568b193f07cf3ec549d1fa3f21b6eccc390"
+    },
+    "function/merge_struct_fields.m": {
+      "original_path": "fitted_core/function/merge_struct_fields.m",
+      "original_sha256": "3ab1098678ac0ebbf137d6c0d99ca33629f6756d6b3ce40f0c51a932df184cc4"
+    },
+    "function/mfpt_logquad_average_to_saddle.m": {
+      "original_path": "fitted_core/function/mfpt_logquad_average_to_saddle.m",
+      "original_sha256": "30584de03ffa3b8f51a2d84f23a2e2a88e05fa9baf0fb7be23e4cbe509d8b104"
+    },
+    "function/mvfp_bordered_integrate.m": {
+      "original_path": "fitted_core/function/mvfp_bordered_integrate.m",
+      "original_sha256": "81ebb904fe803c394aed841e08e4f95129fa0b7ff903fe7831d14ceb97145e07"
+    },
+    "function/mvfp_exponential_fit_flux.m": {
+      "original_path": "fitted_core/function/mvfp_exponential_fit_flux.m",
+      "original_sha256": "1e26e744d74d216aeb4a3a5f2ca28ea99d3b8727b4401bdecd471a1c1043d2f5"
+    },
+    "function/mvfp_grid_cache.m": {
+      "original_path": "fitted_core/function/mvfp_grid_cache.m",
+      "original_sha256": "a6ba0189cf70112d44e582824b1464a8f74c094fa44d66dfc6407ed164d3a007"
+    },
+    "function/mvfp_grid_cache_from_x.m": {
+      "original_path": "fitted_core/function/mvfp_grid_cache_from_x.m",
+      "original_sha256": "01b9d4ab2860d3fe686454191708024597ee72d7c714cc6877ff9228392e03c0"
+    },
+    "function/mvfp_paper_revision_config.m": {
+      "original_path": "fitted_core/function/mvfp_paper_revision_config.m",
+      "original_sha256": "ba6baf0e5c6ca4a78addbe3a5cb6517b849e0df1b6edf8f3f6145f11ba5c524e"
+    },
+    "function/mvfp_readout_arrival_times.m": {
+      "original_path": "fitted_core/function/mvfp_readout_arrival_times.m",
+      "original_sha256": "c519254be3309509f7cc1c6d44487b589f7844b7033b46de5b09b2119de81ee5"
+    },
+    "function/mvfp_revision_crossing_intervals.m": {
+      "original_path": "fitted_core/function/mvfp_revision_crossing_intervals.m",
+      "original_sha256": "045edf91f510f125cf588776bfea50a44809bcf2fad173d2b5e178b8f8ae106f"
+    },
+    "function/mvfp_revision_first_arrival.m": {
+      "original_path": "fitted_core/function/mvfp_revision_first_arrival.m",
+      "original_sha256": "7a9312a704189d90a0f614b8ad78a705d1053db3665fed5c91c1d3ea7127b02d"
+    },
+    "function/mvfp_revision_fitted_linearization.m": {
+      "original_path": "fitted_core/function/mvfp_revision_fitted_linearization.m",
+      "original_sha256": "166178dec993ebf2c092fc6f44e2760841ae58457d3c0062597947d87704f155"
+    },
+    "function/mvfp_revision_outgoing_modal_window.m": {
+      "original_path": "fitted_core/function/mvfp_revision_outgoing_modal_window.m",
+      "original_sha256": "441ce445f6eb24f96826d18807dcca01981b5420a81a83af586a11d2eb08cb9d"
+    },
+    "function/mvfp_revision_refine_crossings.m": {
+      "original_path": "fitted_core/function/mvfp_revision_refine_crossings.m",
+      "original_sha256": "8b303f6400e7ccb79ce23eed504396a31ba68df4d38f55ad4627c2f7e322a028"
+    },
+    "function/mvfp_revision_residence_events.m": {
+      "original_path": "fitted_core/function/mvfp_revision_residence_events.m",
+      "original_sha256": "e4f4a1f6ac0e83b6e9f289a96564765f0fdca5bb7ef0eef3bb2cda89de8dc487"
+    },
+    "function/mvfp_revision_residence_prediction_bounds.m": {
+      "original_path": "fitted_core/function/mvfp_revision_residence_prediction_bounds.m",
+      "original_sha256": "e9c6505f73710b2cba65d84b4338dd6bc9864a20493165c21df4d4023803836e"
+    },
+    "function/mvfp_rhs.m": {
+      "original_path": "fitted_core/function/mvfp_rhs.m",
+      "original_sha256": "8ffc233a75755737931f7d2ff2868e8d21a1794adedf800b3af28718b015d1ad"
+    },
+    "function/mvfp_rhs_fixed_feedback.m": {
+      "original_path": "fitted_core/function/mvfp_rhs_fixed_feedback.m",
+      "original_sha256": "890e5a6ba897d52170d9c4ea60c7ca37ec16cd7abd73ab61676d8349eeee41bd"
+    },
+    "function/mvfp_steady_density_from_F.m": {
+      "original_path": "fitted_core/function/mvfp_steady_density_from_F.m",
+      "original_sha256": "5dc02241572a648ef3deed6d8638d224abd5d852c68e6c65f8fcb1b4651bf799"
+    },
+    "function/mvfp_steady_moments_from_F.m": {
+      "original_path": "fitted_core/function/mvfp_steady_moments_from_F.m",
+      "original_sha256": "2cd8cecdf430ebfac479cb119521e66b2c407be8d3d77387c4df82370c149b81"
+    },
+    "function/mvfp_steady_residual.m": {
+      "original_path": "fitted_core/function/mvfp_steady_residual.m",
+      "original_sha256": "35db40c50afabb530a04cefce9f032ee252717566e7d16ddb7f29e2a1cb0399d"
+    },
+    "function/mvfp_streaming_sha256.m": {
+      "original_path": "fitted_core/function/mvfp_streaming_sha256.m",
+      "original_sha256": "89aa84a1d00e2afba14fd4c59f913c6b965c11a8751d27e4cd34ecd8f184d82a"
+    },
+    "function/mvfp_trace_dynamic_landscape.m": {
+      "original_path": "fitted_core/function/mvfp_trace_dynamic_landscape.m",
+      "original_sha256": "a0c1109d48f3bc2e9fb9f66bf669bde4025a949cb6545bf4ef5e56eff4e64307"
+    },
+    "function/mvfp_trace_moment_readouts.m": {
+      "original_path": "fitted_core/function/mvfp_trace_moment_readouts.m",
+      "original_sha256": "c42cdbc160edd5a17ead2c23ddabe871c8445b084420e870a335900b7c53a074"
+    },
+    "function/mvfp_value_sha256.m": {
+      "original_path": "fitted_core/function/mvfp_value_sha256.m",
+      "original_sha256": "b3c73bd9dcbefeb4a28f0d5045580e18732d485167227d1b87f07ac4ff7d6a72"
+    },
+    "function/normalize_density.m": {
+      "original_path": "fitted_core/function/normalize_density.m",
+      "original_sha256": "39e9802645e465f950c571f218519097882d2d7f71b72eec4e03f2c067aefce8"
+    },
+    "function/option_enabled.m": {
+      "original_path": "fitted_core/function/option_enabled.m",
+      "original_sha256": "7f892f7d352b8082b0ee088260f2646f30f0f60e9eae83fb0907bfa164b29059"
+    },
+    "function/parallel_loop_enabled.m": {
+      "original_path": "fitted_core/function/parallel_loop_enabled.m",
+      "original_sha256": "14923e656b4350d67f486738282606ae68dc770c8565375239078cd1e71235d6"
+    },
+    "function/readout_curve_transition_summary.m": {
+      "original_path": "fitted_core/function/readout_curve_transition_summary.m",
+      "original_sha256": "e1657a59095331152f08f1b00acfdad0c9cc804f2e1ed745cc75b5868901f901"
+    },
+    "function/run_mvfp_paper_revision_stage.m": {
+      "original_path": "fitted_core/function/run_mvfp_paper_revision_stage.m",
+      "original_sha256": "f6dac930fd23a442861abb64b97a615adcf5e6417f2f49474fd421c428246ef7"
+    },
+    "function/set_param_value.m": {
+      "original_path": "fitted_core/function/set_param_value.m",
+      "original_sha256": "78eb7c072a196b7b4f9bd6bca1ddc3ee836690653fe853b4859450904e6b29a5"
+    },
+    "function/solve_mvfp_density_trace.m": {
+      "original_path": "fitted_core/function/solve_mvfp_density_trace.m",
+      "original_sha256": "874da7ce61a3969a493952405a9a48565ab245e379beb46f66f3f95b6bdc7cc4"
+    },
+    "function/solve_mvfp_density_trace_fixed_feedback.m": {
+      "original_path": "fitted_core/function/solve_mvfp_density_trace_fixed_feedback.m",
+      "original_sha256": "96f23d5aa1479019650b60dd50434e5f4134977d81ea0280dcd867a78fc6edec"
+    },
+    "function/steady_branch_stability.m": {
+      "original_path": "fitted_core/function/steady_branch_stability.m",
+      "original_sha256": "9e92544a64b80db26002aadfe5405a55a390b39ba25db2a2c9ff2c87ea542370"
+    },
+    "function/unique_roots.m": {
+      "original_path": "fitted_core/function/unique_roots.m",
+      "original_sha256": "6506904512a1c60c3ac8d80ffb8ba5816c1ecc8f8ce28b8756d85dc5dd96c7df"
+    },
+    "function/validate_mvfp_approved_revision_fig123.m": {
+      "original_path": "fitted_core/function/validate_mvfp_approved_revision_fig123.m",
+      "original_sha256": "f8ccc1e5cf7bc5c75585db1e9dbe2f72efdde3223bc404d615c83cf8637fdf34"
+    },
+    "recompute/run_core_a.m": {
+      "original_path": "fitted_core/recompute/run_core_a.m",
+      "original_sha256": "89f7dc5d50ea368174aa6be7e46927644e91dbd27321a738ef3095d0540eadab"
+    },
+    "recompute/run_core_b.m": {
+      "original_path": "fitted_core/recompute/run_core_b.m",
+      "original_sha256": "633ee0800a8302ae0e510e6fea3da678bb45a499245798cf1268f9a587e2eb5c"
+    },
+    "recompute/finalize_local_data.m": {
+      "original_path": "fitted_core/recompute/finalize_local_data.m",
+      "original_sha256": "5b3eec5f65eb5697fb6981cbd95a087e6d16a2cf109d88c623c9ee8eefb13c1c"
+    },
+    "recompute/run_auxiliary.m": {
+      "original_path": "recompute/run_auxiliary.m",
+      "original_sha256": "2dc0aa6a3aed9d63ef7c0947d12ad6663b38ad1b2ee71a24726d984b9573c6a1"
+    },
+    "recompute/analyze_boundary.py": {
+      "original_path": "recompute/analyze_boundary.py",
+      "original_sha256": "cba75b99da4ed1304ad5e616a03dbce6fcedfc9ba5efdf0a029e2cb476ab46e9"
+    },
+    "recompute/audit_fresh.py": {
+      "original_path": "recompute/audit_fresh.py",
+      "original_sha256": "a4a73d59444f9149d8f8526a461c699169ae96bd273e191f6f4025cd899e41cf"
+    },
+    "plotting/fig123.py": {
+      "original_path": "plotting/fig123.py",
+      "original_sha256": "46eadff2f81407413cba0d205412699d859ebd8420c6f214fcc249e52648ff78"
+    },
+    "plotting/fig45.py": {
+      "original_path": "plotting/fig45.py",
+      "original_sha256": "345bf3b3ad4cd005c6d5bc5f80c9039ba130949009c3aef8eedce2f0a824b1fe"
+    },
+    "plotting/style.py": {
+      "original_path": "plotting/style.py",
+      "original_sha256": "48aafab35c9b7ca6df014d32da8cb4009d2f4eb61a2c69433e469c4f6c1fd289"
+    },
+    "render_fresh.py": {
+      "original_path": "render_fresh.py",
+      "original_sha256": "059c55c0d44d7ed5696ee2de1039d193821baadb67d531e713b19fed028231e1"
+    },
+    "requirements-plotting.txt": {
+      "original_path": "requirements-plotting.txt",
+      "original_sha256": "774c183e7a591f009bc3f718af3479cf759a975a651806b7043f103414e718f0"
+    },
+    "provenance/input_config.json": {
+      "original_path": "provenance/input_config.json",
+      "original_sha256": "e9e8133a9707bdac39049d19bd45b450e0f063c8df098fcf361994fa139f4f53"
+    }
+  }
+}
